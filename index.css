@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+     margin: 0;
+     padding: 0;
+     
+    
+
+
+}
+
+body{
+    background-image: url(photo/beautiful-mountain-lake-background-remix.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.nav{
+    display: flex; /* Utiliser Flexbox pour aligner les éléments */
+    align-items: center; /* Centrer verticalement */
+    justify-content: space-between; /* Espace entre le logo et la navigation */
+    padding: 20px;
+}
+
+img {
+   width: 350px;
+   background-color: transparent;
+    margin-left: 210px;
+    margin-top: -9px;
+    
+}
+
+
+
+
+.navigation ul {
+    display: flex; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    margin-right:  250px; 
+    
+  }
+
+  .navigation ul li{
+
+    margin-left: 80px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 4px;
+    box-shadow: 20px;
+    
+    
+  }
+  
+
+  .navigation ul li {
+    margin-left: 60px;
+}
+
+
+  .navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: relative;
+    font-family: 'Poppins';
+    transition: 1s;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    box-shadow: 1PX 1px white;
+}
+
+
+.landingEcrit {
+    color: white;
+    margin-top: 16%;
+    margin-left: 21%;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+.landingEcrit h3 {
+    margin-left: 375px;
+}
+.buttonTry{
+    margin-left: 375px;
+    margin-top: 46px;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    background-color: rgb(3, 2, 2);
+    box-shadow: 1px 1px rgb(248, 248, 248);
+    transition: 2s;
+    font-weight: bold;
+}
+
+.buttonTry:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins';
+    border: 1px solid rgb(229, 229, 230);
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Effet de flou pour le contenu de la page */
+body.modal-open .section {
+  pointer-events: none; /* Empêche l'interaction avec le fond */
+}
+
+body.modal-open::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente */
+  z-index: 5; /* Assure que l'arrière-plan flou est derrière la modal */
+  backdrop-filter: blur(8px); /* Applique l'effet de flou */
+}
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 20%;
+  background-color: #000000c4;
+  padding: 280px;
+  border-radius: 5px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+ color: rgba(245, 0, 0, 0.74);
+
+
+}
+
+
+
+
+
+
+
+
+
+section{
+
+ 
+  background-color: black;
+  margin-top: 300px;
+  height: 1500px;
+  
+
+}
+
+section img {
+  
+ 
+  width: 600px;
+  margin-top: 56px;
+ border: 4px rgb(0, 87, 163);
+
+}
+
+
+
+
+
+.text-right {
+   
+    max-width: 60%;
+    margin-left: 50%;
+    margin-top: -382px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+
+.text-right h2 {
+  font-size: 60px; 
+  color: #333; 
+  margin-bottom: 15px; 
+}
+
+.text-right p {
+  font-size: 20px; 
+  color: #e6e6e6; 
+  line-height: 1.5; 
+  margin-bottom: 7px; 
+  box-shadow: 3px  aliceblue;
+}
+
+.text-right ul {
+  list-style-type: disc; 
+  padding-left: 16px; 
+  color: #dfdede; 
+  font-size: 25px;
+}
+
+.text-right li {
+  margin-bottom: 8px;
+ }
+
+
+
+
+
+
+
+
+
+  .section2 {
+    width: 400px;
+    margin-left: 1138px;
+    margin-top: 198px;
+}
+
+
+
+
+
+
+.text-left{
+  color: aliceblue;
+  max-width: 45%;
+  margin-top: -344px;
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.text-left h2{
+  font-size: 60px;
+  color: #333; 
+  margin-bottom: 15px; 
+}
+
+.text-left p{
+  font-size: 20px; 
+
+}
+
+
+.Calculatrice{
+ border-radius: 10px;
+  width: 39%;
+  background-color: #161616;
+  margin-top: -100px;
+  height: 425px;
+  padding-top: 14px;
+  
+  padding-left: 7px;
+  margin-left: 29%;
+
+  border: rgb(26, 26, 26) solid;
+  
+  
+  
+}
+
+
+.ecran{
+    width: 90%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 8px;
+    border: 2px 3px  black solid;
+    
+    
+}
+
+.touches{
+
+  display: grid;
+  grid-template-columns: repeat(4,50px);
+  grid-template-rows: repeat(5,50px);
+  grid-gap: 5px;
+  margin-left: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  
+}
+
+
+.egale{
+  width: 104px;
+  background-color: #b30000;
+  color: aliceblue;
+}
+
+
+.button{
+  background-color: rgb(12, 12, 12);
+  color: aliceblue;
+  border-radius: 50%;
+  border: none;
+  
+}
+
+
+.Clear{
+  background-color: #004244;
+}
+
+ .egale{
+  background-color: #777777;
+}
+
+
+.footer {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #030303; 
+  color: #7e7e7e; 
+  width: 1804px; 
+  position: relative; 
+  bottom: 0;
+  left: 0;
+}
+
+.left, .right {
+  margin-left: 280px;
+}

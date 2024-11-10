@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+       <a href="MainPage.html"> <img src="photo/Capture1111.PNG""> </a>       
+        <nav class="navigation">
+            <ul>
+              <li><a href="MainPage.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <div class="section">
+        <div class="card">
+            <div class="landingEcrit">
+                <h3>Welcome! </h3><br>
+                <h2>Start Your Easy Calculation Journey Today!</h2>
+                <button class="buttonTry" onclick="showModal()">Try it Now</button>
+            </div>     
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="Calculatrice">
+                <div class="ecran">0</div>
+                <div class="touches">
+                    <button class="button Clear" onclick="buttonClick('C')">C</button>
+                    <button class="button" onclick="buttonClick('(')">(</button>
+                    <button class="button" onclick="buttonClick(')')">)</button>
+                    <button class="button" onclick="buttonClick('/')">/</button>
+                    <button class="button" onclick="buttonClick('7')">7</button>
+                    <button class="button" onclick="buttonClick('8')">8</button>
+                    <button class="button" onclick="buttonClick('9')">9</button>
+                    <button class="button" onclick="buttonClick('*')">*</button>
+                    <button class="button" onclick="buttonClick('4')">4</button>
+                    <button class="button" onclick="buttonClick('5')">5</button>
+                    <button class="button" onclick="buttonClick('6')">6</button>
+                    <button class="button" onclick="buttonClick('-')">-</button>
+                    <button class="button" onclick="buttonClick('1')">1</button>
+                    <button class="button" onclick="buttonClick('2')">2</button>
+                    <button class="button" onclick="buttonClick('3')">3</button>
+                    <button class="button" onclick="buttonClick('+')">+</button>
+                    <button class="button" onclick="buttonClick('0')">0</button>
+                    <button class="button" onclick="buttonClick('.')">.</button>
+                    <button class="button egale" onclick="buttonClick('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="section">
+        <section>
+           <img src="photo/e32f796dea96938729f021e214cf3a01.jpg" alt="">
+            <div class="text-right">
+                <h2>Enhance Your Calculation Experience</h2>
+                <p>Our calculator is designed to simplify complex calculations and improve your productivity. 
+                Whether you are a student, a professional, or just someone who loves numbers, this tool is perfect for you!</p>
+                <ul>
+                    <li>Fast and efficient calculations</li>
+                    <li>User-friendly interface</li>
+                    <li>Supports a variety of mathematical functions</li>
+                </ul>
+            </div>
+            <img class="section2" src="photo/Capture1.PNG" alt="">
+            <div class="text-left">
+                <h2>Discover the Power of Simple Calculations</h2>
+                <p>At Infinite Calculatore, we believe that making complex calculations shouldn't
+                    be a challenge. Our tool simplifies even the most complicated mathematical
+                    problems, so you can focus on what truly matters.
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="footer">
+       <p class="left"> © 2024 Infinite Calculatore </p>
+             <p></p class='right'>  Tous droits réservés. </p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
