@@ -21,7 +21,9 @@ background-size: cover;
     display: flex; /* Utiliser Flexbox pour aligner les éléments */
     align-items: center; /* Centrer verticalement */
     justify-content: space-between; /* Espace entre le logo et la navigation */
-    padding: 20px;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 150px;
 }
 
 img {
@@ -38,7 +40,7 @@ img {
 .navigation ul {
     display: flex; 
     list-style: none; 
-    margin: 0; 
+    margin-left: 1000px;
     padding: 0; 
     margin-right:  250px; 
     
@@ -362,7 +364,7 @@ section img {
   padding: 20px; 
   background-color: #030303; 
   color: #7e7e7e; 
-  width: 1804px; 
+  width: 1855px; 
   position: relative; 
   bottom: 0;
   left: 0;
@@ -370,4 +372,13 @@ section img {
 
 .left, .right {
   margin-left: 280px;
+}
+
+.about:hover{
+    text-decoration: line-through;
+}
+
+.products:hover{
+  text-decoration: line-through;
+
 }
